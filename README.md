@@ -1,2 +1,2 @@
-# SPETSpy
-SProcket Editing ToolS (python version)
+# SprocketLib
+Sprocket Blueprint Loading Library

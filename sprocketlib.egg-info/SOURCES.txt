@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+sprocketlib.egg-info/PKG-INFO
+sprocketlib.egg-info/SOURCES.txt
+sprocketlib.egg-info/dependency_links.txt
+sprocketlib.egg-info/top_level.txt
+tests/test_sprocketlib.py
