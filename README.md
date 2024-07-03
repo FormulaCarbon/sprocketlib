@@ -28,6 +28,9 @@ BLUEPRINT = "path/to/blueprint.blueprint"
 vehicle = BluePrint(BLUEPRINT)
 vehicle.load_blueprints()
 vehicle.load_blueprints_properties()
+
+for part in vehicle.blueprints:
+  print(part.name, part.type, part.id)
 ```
 
 
