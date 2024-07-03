@@ -38,6 +38,7 @@ for part in vehicle.blueprints:
 - Write documentation for mesh
 - Write more example code
 - Write tests
-- optimize
+- Optimize ID search and part loading
+- Replace lists with numpy arrays
 
 
