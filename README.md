@@ -1,6 +1,11 @@
 # SprocketLib
 Sprocket Blueprint Loading Library
 
+## Installation
+
+```bash
+pip install -i https://test.pypi.org/simple/ sprocketlib
+```
 ## Limitations
 As of version 0.1.0, sprocketlib can load only sub-blueprints, not meshes. mesh loading is currently in the works.
 
