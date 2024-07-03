@@ -1,6 +1,10 @@
 README.md
 pyproject.toml
 setup.py
+sprocketlib/__init__.py
+sprocketlib/base.py
+sprocketlib/mesh.py
+sprocketlib/parts.py
 sprocketlib.egg-info/PKG-INFO
 sprocketlib.egg-info/SOURCES.txt
 sprocketlib.egg-info/dependency_links.txt
