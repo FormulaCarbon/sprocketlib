@@ -33,4 +33,11 @@ for part in vehicle.blueprints:
     print(part.name, part.type, part.id)
 ```
 
+## TODO
+- Finish mesh implementation
+- Write documentation for mesh
+- Write more example code
+- Write tests
+- optimize
+
 
