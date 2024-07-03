@@ -1,6 +1,9 @@
 # SprocketLib
 Sprocket Blueprint Loading Library
 
+## Limitations
+As of version 0.1.0, sprocketlib can load only sub-blueprints, not meshes. mesh loading is currently in the works.
+
 ## Usage
 ```py
 import sprocketlib as sp
@@ -13,5 +16,18 @@ header = bp.get_header()                                                      # 
 partID = bp.get_part_id("compartment name", "compartment type")               # Returns ID of part given name and type, eg. "compartment1" and "Compartment"
 blueprints = bp.get_blueprints()                                              # Returns all part sub-blueprints as a list of dicts
 parts = bp.load_blueprints()                                                  # Loads all sub-blueprints as part objects as defined in sprocketlib.parts. Saves to bp.blueprints. Returns a list of part objects
-partsAndProperties = bp.load_blueprints_properties()                          # Loads all properties of each part. Must be called after bp.load_blueprints()
+partsAndProperties = bp.load_blueprints_properties()                          # Loads all properties of each part. Must be called after bp.load_blueprints(). updates bp.blueprints
 ```
+
+### Quickstart
+```py
+from sprocketlib.base import *
+
+BLUEPRINT = "path/to/blueprint.blueprint"
+
+vehicle = BluePrint(BLUEPRINT)
+vehicle.load_blueprints()
+vehicle.load_blueprints_properties()
+```
+
+
