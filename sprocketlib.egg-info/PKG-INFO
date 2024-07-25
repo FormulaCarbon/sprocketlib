@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: sprocketlib
-Version: 0.1.2
+Version: 0.1.3
 Summary: Sprocket blueprint loading library
 Author: FormulaCarbon
 Classifier: Programming Language :: Python :: 3
@@ -56,4 +56,6 @@ for part in vehicle.blueprints:
 - Optimize ID search and part loading
 - Replace lists with numpy arrays
 
-
+## Building
+py -m setup sdist bdist_wheel
+twine upload --repository testpypi dist/*

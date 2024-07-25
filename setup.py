@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name='sprocketlib',
     packages=find_packages(include=['sprocketlib']),
-    version='0.1.2',
+    version='0.1.3',
     description='Sprocket Blueprint Loading Library',
     author='FormulaCarbon',
     install_requires=[],

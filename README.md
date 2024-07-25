@@ -46,4 +46,6 @@ for part in vehicle.blueprints:
 - Optimize ID search and part loading
 - Replace lists with numpy arrays
 
-
+## Building
+py -m setup sdist bdist_wheel
+twine upload --repository testpypi dist/*
